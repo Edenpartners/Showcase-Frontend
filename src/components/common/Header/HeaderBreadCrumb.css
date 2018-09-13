@@ -1,0 +1,9 @@
+.select-status .ant-select-arrow:before {
+    color: #ffffff;
+}
+.select-status .ant-select-arrow {
+    right: 0 !important;
+}
+.select-status .ant-select-selection__rendered {
+    margin: 0 !important;
+}

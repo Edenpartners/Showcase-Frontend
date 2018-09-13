@@ -1,0 +1,5 @@
+.ant-calendar-picker-input, .ant-select-selection {
+    background: none;
+    border: none;
+    padding: 0;
+}

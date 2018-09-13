@@ -1,0 +1,53 @@
+.buy-item .ant-modal-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #010228;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.buy-item .ant-modal-header {
+    border-bottom: none;
+}
+
+.buy-item .ant-modal-footer {
+    text-align: center;
+}
+
+.buy-item .ant-modal-footer div {
+    margin-bottom: 20px;
+}
+
+.buy-item .ant-btn-primary, .buy-item .ant-btn {
+    width: 173px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.buy-item .ant-btn-primary {
+    position: absolute;
+    left: 18%;
+    background: #47c215;
+}
+
+.buy-item .ant-btn {
+    left: 18%;
+}
+
+.buy-item .ant-modal-footer {
+    border: none;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .buy-item .ant-btn-primary, .buy-item .ant-btn {
+        width: 95px;
+    }
+}

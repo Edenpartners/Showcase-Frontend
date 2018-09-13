@@ -1,0 +1,48 @@
+.register-item .modal-title {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #010228;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.register-item .modal-header {
+    border-bottom: none;
+}
+
+.register-item .modal-footer {
+    text-align: center;
+}
+
+.register-item .btn-primary {
+
+    background: #27a4fc;
+    width: 150px;
+}
+.register-item .btn-secondary {
+
+    width: 150px;
+}
+
+
+
+.register-item .modal-footer {
+    border: none;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .register-item .btn-primary, .register-item .btn {
+        width: 95px;
+    }
+}
+.ant-message {
+    z-index: 10000;
+}

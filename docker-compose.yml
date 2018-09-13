@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+  nginx:
+    image: nginx:alpine
+    working_dir: /var/www/src
+    restart: always
+    volumes:
+      - .:/var/www/src
+      - ./docker/nginx/server.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "${HOST_PORT}:80"

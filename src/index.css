@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif !important;
+}
+
+.ant-spin-dot i {
+  background-color: #004f50 !important;
+}

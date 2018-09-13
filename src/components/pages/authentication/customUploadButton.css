@@ -1,0 +1,26 @@
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.btnUploadCustom {
+    width: 74%;
+    background-color: #ffffff;
+    color: #637097;
+    border-radius: 2px;
+    border: solid 1px #637097;
+    font-size: 12px;
+    height: 33px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.w-13{
+    width: 13%;
+}

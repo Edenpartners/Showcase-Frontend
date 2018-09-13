@@ -1,0 +1,15 @@
+.ant-calendar-picker-input .ant-calendar-range-picker-input {
+    width: 34%;
+}
+
+.ant-calendar-picker-input .ant-calendar-range-picker-input:first-child {
+    text-align: left;
+}
+
+.ant-calendar-picker-icon {
+    right: 40px !important;
+}
+
+.ant-calendar-picker-icon:after {
+    color: #010228;
+}
